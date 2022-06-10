@@ -29,8 +29,14 @@ public class Tests {
 	String j7 = "Kuras funkcijas ir vienadas?\n"
 			+"[a] acos() [b] cos() [c] Math.cos() [d] cosine() \n";
 	
-	String j8 = "Kuras funkcijas atgriez double vertibu??\n"
+	String j8 = "Kuras funkcijas atgriez double vertibu?\n"
 			+"[a] floor() [b] ceil() [c] round() [d] rint() \n";
+	
+	String j9 = "Kuras funkcijas nepastav?\n"
+			+"[a] conv() [b] exp() [c] atan2() [d] flick() \n";
+	
+	String j10 = "Kuras funkcijas ir saistitas ar String datu tipu?\n"
+			+"[a] floor() [b] parseInt() [c] toString() [d] rint() \n";
 	
 	
 	Jautajums [] jautajumi = {
@@ -41,7 +47,9 @@ public class Tests {
 			new Jautajums(j5, "ab"),
 			new Jautajums(j6, "bd"),
 			new Jautajums(j7, "bc"),
-			new Jautajums(j8, "abd")
+			new Jautajums(j8, "abd"),
+			new Jautajums(j9, "ad"),
+			new Jautajums(j10, "bc")
 	};
 	testaIzpilde(jautajumi);
 	
@@ -49,16 +57,17 @@ public class Tests {
 	
 	public static void testaIzpilde(Jautajums [] jautajumi) {
 		Scanner read = new Scanner(System.in);
-		
+		int atbSk =0;
 		for(int i=0; i<jautajumi.length; i++) {
 			String atbilde;
 			do {
 			System.out.println(jautajumi[i].jaut);
 			atbilde = read.nextLine();
+			atbSk++;
 			}while(!atbilde.equals(jautajumi[i].atbilde));
 				
 		}
-		System.out.println("Tests ir pabeigts.");
+		System.out.println("Tests ir pabeigts. Nepienemto atbilzu skaits = "+(atbSk-10));
 		read.close();
 	}
 
