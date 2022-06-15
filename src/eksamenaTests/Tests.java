@@ -57,17 +57,24 @@ public class Tests {
 	
 	public static void testaIzpilde(Jautajums [] jautajumi) {
 		Scanner read = new Scanner(System.in);
-		int atbSk =0;
+		int [] atbSk = new int[10];
+		int arPirmo = 0;
 		for(int i=0; i<jautajumi.length; i++) {
 			String atbilde;
 			do {
 			System.out.println(jautajumi[i].jaut);
 			atbilde = read.nextLine();
-			atbSk++;
+			atbSk[i] = atbSk[i]+1;
+			
+
+			
 			}while(!atbilde.equals(jautajumi[i].atbilde));
-				
+			if(atbSk[i]<2) {
+				arPirmo++;
+				System.out.println(atbSk[i]);
+			}
 		}
-		System.out.println("Tests ir pabeigts. Nepienemto atbilzu skaits = "+(atbSk-10));
+		System.out.println("Tests ir pabeigts. \nAr pirmo reizi atbildeto jautajumu skaits = "+(arPirmo));
 		read.close();
 	}
 
