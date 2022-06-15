@@ -68,7 +68,6 @@ public class Tests {
 			}while(!atbilde.equals(jautajumi[i].atbilde));
 			if(atbSk[i]<2) {
 				arPirmo++;
-				System.out.println(atbSk[i]);
 			}
 		}
 		System.out.println("Tests ir pabeigts. \nAr pirmo reizi atbildeto jautajumu skaits = "+(arPirmo));
