@@ -17,9 +17,9 @@ Nederīga atbilde - CB
 
 Darāmo darbu saraksts
 
-[x] - Izveidots projekts
-[x] - Izveidots tests ar 10 jautajumiem
-[x] - Izveidots mācību materials
-[x] - Mācību materiāls papildināts ar 5 programmu kodiem
-[x] - Pārbaudīta testa funkcionalitāte
-[x] - Pārbaudīts vai tests sakrīt ar jautajumu atbilžu kritērijiem (vismaz 2 vai 3 pareizas atbildes)
+- [x] Izveidots projekts
+- [x] Izveidots tests ar 10 jautajumiem
+- [x] Izveidots mācību materials
+- [x] Mācību materiāls papildināts ar 5 programmu kodiem
+- [x] Pārbaudīta testa funkcionalitāte
+- [x] Pārbaudīts vai tests sakrīt ar jautajumu atbilžu kritērijiem (vismaz 2 vai 3 pareizas atbildes)
