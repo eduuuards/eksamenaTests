@@ -15,4 +15,5 @@ Atbilžu varianti -
 Pareiza  atbilde - BC
 Nederīga atbilde - CB
 
+[ ] - Izveidots projekts
 
