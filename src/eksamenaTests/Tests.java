@@ -65,9 +65,6 @@ public class Tests {
 			System.out.println(jautajumi[i].jaut);
 			atbilde = read.nextLine();
 			atbSk[i] = atbSk[i]+1;
-			
-
-			
 			}while(!atbilde.equals(jautajumi[i].atbilde));
 			if(atbSk[i]<2) {
 				arPirmo++;
