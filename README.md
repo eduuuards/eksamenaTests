@@ -25,5 +25,5 @@ Darāmo darbu saraksts par visiem uzdotajiem darbiem eksāmenā
 - [x] Pārbaudīts vai tests sakrīt ar jautajumu atbilžu kritērijiem (vismaz 2 vai 3 pareizas atbildes)
 - [ ] Izstrādāts testēšanas dokuments
 - [ ] Veikta testēšana
-- [ ] Izstrādāta prezentācija par darba gaitu
-- [ ] Prezentācijā iekļauti informācijas avoti
+- [x] Izstrādāta prezentācija par darba gaitu
+- [x] Prezentācijā iekļauti informācijas avoti
